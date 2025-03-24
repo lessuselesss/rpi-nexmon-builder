@@ -4,8 +4,8 @@ permissions: write-all
 
 on:
   push:
-    tags:
-      - 'v6.8.0-*-raspi'
+    # tags:
+    #   - 'v6.8.0-*-raspi'
 
 jobs:
   build-lkm:
